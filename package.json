@@ -13,7 +13,6 @@
             "require": "./dist/cjs/index.js"
         }
     },
-    "private": false,
     "license": "UNLICENSED",
     "publishConfig": {
         "access": "public"
@@ -27,12 +26,16 @@
         ]
     },
     "scripts": {
+        "build:cjs": "tsc --project tsconfig.cjs.json",
+        "build:esm": "tsc --project tsconfig.esm.json",
+        "build": "pnpm run build:cjs && pnpm run build:esm",
         "prepare": "husky"
     },
     "devDependencies": {
         "@cmmv/cli": "^0.4.0",
         "@tsconfig/node22": "^22.0.0",
-        "@types/node": "^22.13.4"
+        "@types/node": "^22.13.4",
+        "typescript": "^5.7.3"
     },
     "dependencies": {
         "@cmmv/core": "^0.8.18"
