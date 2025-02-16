@@ -34,7 +34,7 @@
         "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
     },
     "devDependencies": {
-        "@cmmv/cli": "^0.5.6",
+        "@cmmv/cli": "^0.5.7",
         "@cmmv/testing": "^0.8.18",
         "@commitlint/cli": "^19.7.1",
         "@commitlint/config-angular": "^19.7.1",
@@ -45,7 +45,6 @@
         "conventional-changelog-cli": "^5.0.0",
         "husky": "^9.1.7",
         "lint-staged": "^15.4.3",
-        "prettier": "^3.5.1",
         "tslib": "^2.8.1",
         "typescript": "^5.7.3",
         "vitest": "^3.0.5"
