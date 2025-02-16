@@ -13,8 +13,8 @@ importers:
         version: 0.8.18
     devDependencies:
       '@cmmv/cli':
-        specifier: ^0.5.1
-        version: 0.5.1(@swc/types@0.1.17)(@types/node@22.13.4)(conventional-commits-filter@5.0.0)
+        specifier: ^0.5.3
+        version: 0.5.3(@swc/types@0.1.17)(@types/node@22.13.4)(conventional-commits-filter@5.0.0)
       '@cmmv/testing':
         specifier: ^0.8.18
         version: 0.8.18
@@ -83,8 +83,8 @@ packages:
     resolution: {integrity: sha512-Ed61U6XJc3CVRfkERJWDz4dJwKe7iLmmJsbOGu9wSloNSFttHV0I8g6UAgb7qnK5ly5bGLPd4oXZlxCdANBOWQ==}
     engines: {node: '>=6.9.0'}
 
-  '@cmmv/cli@0.5.1':
-    resolution: {integrity: sha512-T94hw/gI59pcLUv8yd4M06/ooRgh9cgjjMtEe0SfSnej1T47ZWyfRvow3I+9WC1UutbqBLIzdtouaMCKIDADAw==}
+  '@cmmv/cli@0.5.3':
+    resolution: {integrity: sha512-QJ22rZ3a3XWzDSbSHegXyJfeoxWKS1FyJaXJ6EHtuPo0V0Kkof04b+aZ6XOMDNefQY2YM4sxMELqs9l7CC+rRg==}
     engines: {node: '>=16.14'}
     hasBin: true
 
@@ -3405,7 +3405,7 @@ snapshots:
 
   '@babel/helper-validator-identifier@7.25.9': {}
 
-  '@cmmv/cli@0.5.1(@swc/types@0.1.17)(@types/node@22.13.4)(conventional-commits-filter@5.0.0)':
+  '@cmmv/cli@0.5.3(@swc/types@0.1.17)(@types/node@22.13.4)(conventional-commits-filter@5.0.0)':
     dependencies:
       '@cmmv/core': 0.8.18
       '@commitlint/cli': 19.7.1(@types/node@22.13.4)(typescript@5.7.3)

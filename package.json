@@ -34,7 +34,7 @@
         "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
     },
     "devDependencies": {
-        "@cmmv/cli": "^0.5.1",
+        "@cmmv/cli": "^0.5.3",
         "@cmmv/testing": "^0.8.18",
         "@commitlint/cli": "^19.7.1",
         "@commitlint/config-angular": "^19.7.1",
