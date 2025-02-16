@@ -1,0 +1,40 @@
+{
+    "name": "cmmv-module",
+    "version": "0.0.1",
+    "description": "",
+    "author": "",
+    "keywords": [],
+    "main": "./dist/cjs/index.js",
+    "module": "./dist/esm/index.js",
+    "types": "./dist/types/index.d.ts",
+    "exports": {
+        ".": {
+            "import": "./dist/esm/index.js",
+            "require": "./dist/cjs/index.js"
+        }
+    },
+    "private": false,
+    "license": "UNLICENSED",
+    "publishConfig": {
+        "access": "public"
+    },
+    "engines": {
+        "node": ">= 20.0.0"
+    },
+    "lint-staged": {
+        "**/*.ts": [
+            "prettier --ignore-path ./.prettierignore --write"
+        ]
+    },
+    "scripts": {
+        "prepare": "husky"
+    },
+    "devDependencies": {
+        "@cmmv/cli": "^0.4.0",
+        "@tsconfig/node22": "^22.0.0",
+        "@types/node": "^22.13.4"
+    },
+    "dependencies": {
+        "@cmmv/core": "^0.8.18"
+    }
+}
