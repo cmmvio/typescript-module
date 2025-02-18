@@ -32,3 +32,6 @@ nodemon.json
 .cmmv.config.js
 .cmmv.config.cjs
 .cmmv.config.mjs
+eslint.config.cjs
+.editorconfig
+
