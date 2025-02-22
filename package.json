@@ -36,7 +36,7 @@
     },
     "devDependencies": {
         "@cmmv/cli": "^0.6.2",
-        "@cmmv/testing": "^0.8.21",
+        "@cmmv/testing": "^0.8.23",
         "@commitlint/cli": "^19.7.1",
         "@commitlint/config-angular": "^19.7.1",
         "@commitlint/config-conventional": "^19.7.1",
@@ -51,11 +51,12 @@
         "vitest": "^3.0.6"
     },
     "dependencies": {
-        "@cmmv/core": "^0.8.21"
+        "@cmmv/core": "^0.8.23"
     },
-	"pnpm": {
-		"onlyBuiltDependencies": [
-			"@swc/core"
-		]
-	}
+    "pnpm": {
+        "onlyBuiltDependencies": [
+            "@swc/core",
+            "esbuild"
+        ]
+    }
 }
