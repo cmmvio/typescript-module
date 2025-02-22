@@ -35,22 +35,27 @@
         "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
     },
     "devDependencies": {
-        "@cmmv/cli": "^0.5.7",
-        "@cmmv/testing": "^0.8.18",
+        "@cmmv/cli": "^0.6.2",
+        "@cmmv/testing": "^0.8.21",
         "@commitlint/cli": "^19.7.1",
         "@commitlint/config-angular": "^19.7.1",
         "@commitlint/config-conventional": "^19.7.1",
         "@tsconfig/node22": "^22.0.0",
-        "@types/node": "^22.13.4",
+        "@types/node": "^22.13.5",
         "conventional-changelog": "^6.0.0",
         "conventional-changelog-cli": "^5.0.0",
         "husky": "^9.1.7",
         "lint-staged": "^15.4.3",
         "tslib": "^2.8.1",
         "typescript": "^5.7.3",
-        "vitest": "^3.0.5"
+        "vitest": "^3.0.6"
     },
     "dependencies": {
-        "@cmmv/core": "^0.8.18"
-    }
+        "@cmmv/core": "^0.8.21"
+    },
+	"pnpm": {
+		"onlyBuiltDependencies": [
+			"@swc/core"
+		]
+	}
 }
