@@ -9,15 +9,15 @@ importers:
   .:
     dependencies:
       '@cmmv/core':
-        specifier: ^0.8.23
-        version: 0.8.23
+        specifier: ^0.8.25
+        version: 0.8.25
     devDependencies:
       '@cmmv/cli':
-        specifier: ^0.6.2
-        version: 0.6.2(@swc/types@0.1.17)(@types/node@22.13.5)(conventional-commits-filter@5.0.0)(eslint@9.21.0(jiti@2.4.2))
+        specifier: ^0.7.4
+        version: 0.7.4(@swc/types@0.1.17)(@types/node@22.13.5)(conventional-commits-filter@5.0.0)(eslint@9.21.0(jiti@2.4.2))
       '@cmmv/testing':
-        specifier: ^0.8.23
-        version: 0.8.23
+        specifier: ^0.8.25
+        version: 0.8.25
       '@commitlint/cli':
         specifier: ^19.7.1
         version: 19.7.1(@types/node@22.13.5)(typescript@5.7.3)
@@ -65,16 +65,16 @@ packages:
     resolution: {integrity: sha512-Ed61U6XJc3CVRfkERJWDz4dJwKe7iLmmJsbOGu9wSloNSFttHV0I8g6UAgb7qnK5ly5bGLPd4oXZlxCdANBOWQ==}
     engines: {node: '>=6.9.0'}
 
-  '@cmmv/cli@0.6.2':
-    resolution: {integrity: sha512-Pj0fkAM1qBUY2IU+yvHPORWzF/mHt+F8z1n8w1InIHJIhVA58eMurmJaMM86U9GnrcXPjfdoRJQpMJq/APxrbA==}
+  '@cmmv/cli@0.7.4':
+    resolution: {integrity: sha512-hbFapmZ5EVELYOMn1WFeHuT47wIhBasfymvPcdUyh6vNyVBsAzhmesZszRdlVv2UQUS+V6aYeB09c6PqfZaEmQ==}
     engines: {node: '>=16.14'}
     hasBin: true
 
-  '@cmmv/core@0.8.23':
-    resolution: {integrity: sha512-xZslBOjc8RRCeGEj5FAJBG8y3Vw2Q+djHCda66uxB2DjTtXf1FgmRQbWZuc4TC5FVxbs3nAZt8rvBGJq5BhQcg==}
+  '@cmmv/core@0.8.25':
+    resolution: {integrity: sha512-fOqhelYu6zgoi5wv9j1ZpM6tNP3ob7fo8EUxoIaOQJm40qBTsYldBe81Gx0P3/UkrQPPwsOj9GY6ycTclxs6aw==}
 
-  '@cmmv/testing@0.8.23':
-    resolution: {integrity: sha512-+dV1POXKC5+TK8LvBE34Q90l73x6rHDhDYx/WBYz7BRg7jpnN09eXVg87p5V5D4r2Dl6LRTS5IPbPZn/bTjzdg==}
+  '@cmmv/testing@0.8.25':
+    resolution: {integrity: sha512-ec0NT2j9lmPaHWC5wkGb0mCfO6JhYgt3z4vmzLGDv177ZZNHjqHLccLd415fVYuT4kr0fMij+BhYvs5NpYSeKA==}
 
   '@commitlint/cli@19.7.1':
     resolution: {integrity: sha512-iObGjR1tE/PfDtDTEfd+tnRkB3/HJzpQqRTyofS2MPPkDn1mp3DBC8SoPDayokfAy+xKhF8+bwRCJO25Nea0YQ==}
@@ -2881,9 +2881,9 @@ snapshots:
 
   '@babel/helper-validator-identifier@7.25.9': {}
 
-  '@cmmv/cli@0.6.2(@swc/types@0.1.17)(@types/node@22.13.5)(conventional-commits-filter@5.0.0)(eslint@9.21.0(jiti@2.4.2))':
+  '@cmmv/cli@0.7.4(@swc/types@0.1.17)(@types/node@22.13.5)(conventional-commits-filter@5.0.0)(eslint@9.21.0(jiti@2.4.2))':
     dependencies:
-      '@cmmv/core': 0.8.23
+      '@cmmv/core': 0.8.25
       '@commitlint/cli': 19.7.1(@types/node@22.13.5)(typescript@5.7.3)
       '@commitlint/config-angular': 19.7.1
       '@commitlint/config-conventional': 19.7.1
@@ -2929,7 +2929,7 @@ snapshots:
       - eslint
       - supports-color
 
-  '@cmmv/core@0.8.23':
+  '@cmmv/core@0.8.25':
     dependencies:
       class-transformer: 0.5.1
       class-validator: 0.14.1
@@ -2941,9 +2941,7 @@ snapshots:
       uglify-js: 3.19.3
       uuid: 10.0.0
 
-  '@cmmv/testing@0.8.23':
-    dependencies:
-      '@cmmv/core': 0.8.23
+  '@cmmv/testing@0.8.25': {}
 
   '@commitlint/cli@19.7.1(@types/node@22.13.5)(typescript@5.7.3)':
     dependencies:
