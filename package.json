@@ -51,7 +51,9 @@
         "vitest": "^3.0.9"
     },
     "dependencies": {
-        "@cmmv/core": "latest"
+        "@cmmv/core": "latest",
+        "dotenv": "^16.4.7",
+        "reflect-metadata": "^0.2.2"
     },
     "pnpm": {
         "onlyBuiltDependencies": [
