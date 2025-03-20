@@ -1,6 +1,6 @@
 {
     "name": "cmmv-module",
-    "version": "0.0.3",
+    "version": "0.0.1",
     "description": "",
     "author": "",
     "keywords": [],
@@ -35,23 +35,23 @@
         "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
     },
     "devDependencies": {
-        "@cmmv/cli": "^0.8.0",
-        "@commitlint/cli": "^19.7.1",
-        "@commitlint/config-angular": "^19.7.1",
-        "@commitlint/config-conventional": "^19.7.1",
+        "@cmmv/cli": "latest",
+        "@commitlint/cli": "^19.8.0",
+        "@commitlint/config-angular": "^19.8.0",
+        "@commitlint/config-conventional": "^19.8.0",
         "@tsconfig/node22": "^22.0.0",
-        "@types/node": "^22.13.5",
+        "@types/node": "^22.13.10",
         "conventional-changelog": "^6.0.0",
         "conventional-changelog-cli": "^5.0.0",
         "esbuild": "^0.25.1",
         "husky": "^9.1.7",
-        "lint-staged": "^15.4.3",
+        "lint-staged": "^15.5.0",
         "tslib": "^2.8.1",
-        "typescript": "^5.7.3",
-        "vitest": "^3.0.6"
+        "typescript": "^5.8.2",
+        "vitest": "^3.0.9"
     },
     "dependencies": {
-        "@cmmv/core": "^0.8.34"
+        "@cmmv/core": "latest"
     },
     "pnpm": {
         "onlyBuiltDependencies": [

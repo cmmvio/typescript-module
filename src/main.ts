@@ -4,6 +4,6 @@ import { ModuleConfig } from './module.config';
 import { ModuleService } from './module.service';
 
 export const CmmvModule = new Module('module', {
-  configs: [ModuleConfig],
-  providers: [ModuleService],
+    configs: [ModuleConfig],
+    providers: [ModuleService],
 });
