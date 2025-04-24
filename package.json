@@ -30,29 +30,24 @@
         "build": "cmmv build",
         "release": "cmmv release",
         "lint": "cmmv lint",
+        "changelog": "cmmv changelog",
         "prepare": "husky",
-        "test": "vitest",
-        "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
+        "test": "vitest"
     },
     "devDependencies": {
         "@cmmv/cli": "latest",
+        "@cmmv/tsconfig": "latest",
         "@commitlint/cli": "^19.8.0",
         "@commitlint/config-angular": "^19.8.0",
         "@commitlint/config-conventional": "^19.8.0",
-        "@tsconfig/node22": "^22.0.1",
-        "@types/node": "^22.13.14",
-        "conventional-changelog": "^6.0.0",
-        "conventional-changelog-cli": "^5.0.0",
-        "esbuild": "^0.25.1",
         "husky": "^9.1.7",
-        "lint-staged": "^15.5.0",
-        "tslib": "^2.8.1",
-        "typescript": "^5.8.2",
-        "vitest": "^3.0.9"
+        "lint-staged": "^15.5.1",
+        "typescript": "^5.8.3",
+        "vitest": "^3.1.2"
     },
     "dependencies": {
         "@cmmv/core": "latest",
-        "dotenv": "^16.4.7",
+        "dotenv": "^16.5.0",
         "reflect-metadata": "^0.2.2"
     },
     "pnpm": {

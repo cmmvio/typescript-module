@@ -1,9 +1,14 @@
 {
-    "extends": "./tsconfig.json",
+    "extends": "@cmmv/tsconfig/tsconfig.build-esm.json",
     "compilerOptions": {
-        "module": "esnext",
+        "baseUrl": "src",
+        "rootDir": "src",
+        "module": "ESNext",
+        "moduleResolution": "Bundler",
         "outDir": "./dist/esm",
         "declaration": true,
         "declarationDir": "./dist/types"
-    }
+    },
+    "include": ["src/**/*.ts"],
+    "exclude": ["node_modules", "dist"]
 }
